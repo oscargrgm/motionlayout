@@ -15,9 +15,9 @@
 
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:layoutDescription="@xml/step1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/step1">
 
     <ImageView
         android:id="@+id/red_star"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:contentDescription="@string/star"
-        android:tint="?colorSecondary"
-        app:srcCompat="@drawable/ic_star_outline" />
+        app:srcCompat="@drawable/ic_star_outline"
+        app:tint="?colorSecondary" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
