@@ -23,10 +23,11 @@
         app:constraintSetStart="@+id/start"
         app:duration="3000">
 
-        <!-- Fix OnSwipe by changing touchAnchorSide -->
+        <!-- TODO Fix OnSwipe by changing touchAnchorSide -->
         <OnSwipe
             app:touchAnchorId="@id/moon"
-            app:touchAnchorSide="bottom" />
+            app:touchAnchorSide="right"
+            app:dragDirection="dragRight"/>
 
 
         <KeyFrameSet>
